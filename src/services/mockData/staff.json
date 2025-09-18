@@ -1,0 +1,262 @@
+[
+  {
+    "Id": 1,
+    "name": "Dr. Sarah Johnson",
+    "role": "Doctor",
+    "department": "Internal Medicine",
+    "shift": "Day Shift (8AM-6PM)",
+    "contactInfo": {
+      "phone": "(555) 111-2222",
+      "email": "s.johnson@hospital.com"
+    },
+    "assignedPatients": [1, 5],
+    "schedule": [
+      {
+        "date": "2024-01-25",
+        "startTime": "08:00",
+        "endTime": "18:00",
+        "status": "on duty"
+      },
+      {
+        "date": "2024-01-26",
+        "startTime": "08:00",
+        "endTime": "18:00",
+        "status": "on duty"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "name": "Dr. Michael Brown",
+    "role": "Doctor",
+    "department": "Emergency",
+    "shift": "Night Shift (10PM-8AM)",
+    "contactInfo": {
+      "phone": "(555) 222-3333",
+      "email": "m.brown@hospital.com"
+    },
+    "assignedPatients": [2],
+    "schedule": [
+      {
+        "date": "2024-01-25",
+        "startTime": "22:00",
+        "endTime": "08:00",
+        "status": "on duty"
+      },
+      {
+        "date": "2024-01-26",
+        "startTime": "22:00",
+        "endTime": "08:00",
+        "status": "emergency"
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "name": "Dr. Jennifer Lee",
+    "role": "Doctor",
+    "department": "Cardiology",
+    "shift": "Day Shift (7AM-7PM)",
+    "contactInfo": {
+      "phone": "(555) 333-4444",
+      "email": "j.lee@hospital.com"
+    },
+    "assignedPatients": [3],
+    "schedule": [
+      {
+        "date": "2024-01-25",
+        "startTime": "07:00",
+        "endTime": "19:00",
+        "status": "on duty"
+      },
+      {
+        "date": "2024-01-26",
+        "startTime": "07:00",
+        "endTime": "19:00",
+        "status": "break"
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "name": "Dr. Lisa Chen",
+    "role": "Doctor",
+    "department": "Obstetrics",
+    "shift": "Day Shift (8AM-5PM)",
+    "contactInfo": {
+      "phone": "(555) 444-5555",
+      "email": "l.chen@hospital.com"
+    },
+    "assignedPatients": [4],
+    "schedule": [
+      {
+        "date": "2024-01-25",
+        "startTime": "08:00",
+        "endTime": "17:00",
+        "status": "on duty"
+      },
+      {
+        "date": "2024-01-26",
+        "startTime": "08:00",
+        "endTime": "17:00",
+        "status": "off duty"
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "name": "Nurse Patricia Adams",
+    "role": "Nurse",
+    "department": "ICU",
+    "shift": "Day Shift (7AM-7PM)",
+    "contactInfo": {
+      "phone": "(555) 555-6666",
+      "email": "p.adams@hospital.com"
+    },
+    "assignedPatients": [1, 2, 3],
+    "schedule": [
+      {
+        "date": "2024-01-25",
+        "startTime": "07:00",
+        "endTime": "19:00",
+        "status": "on duty"
+      },
+      {
+        "date": "2024-01-26",
+        "startTime": "07:00",
+        "endTime": "19:00",
+        "status": "on duty"
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "name": "Nurse Robert Martinez",
+    "role": "Nurse",
+    "department": "Emergency",
+    "shift": "Night Shift (7PM-7AM)",
+    "contactInfo": {
+      "phone": "(555) 666-7777",
+      "email": "r.martinez@hospital.com"
+    },
+    "assignedPatients": [2, 7],
+    "schedule": [
+      {
+        "date": "2024-01-25",
+        "startTime": "19:00",
+        "endTime": "07:00",
+        "status": "on duty"
+      },
+      {
+        "date": "2024-01-26",
+        "startTime": "19:00",
+        "endTime": "07:00",
+        "status": "on duty"
+      }
+    ]
+  },
+  {
+    "Id": 7,
+    "name": "Tech Specialist Amy Wong",
+    "role": "Technician",
+    "department": "Laboratory",
+    "shift": "Day Shift (6AM-4PM)",
+    "contactInfo": {
+      "phone": "(555) 777-8888",
+      "email": "a.wong@hospital.com"
+    },
+    "assignedPatients": [],
+    "schedule": [
+      {
+        "date": "2024-01-25",
+        "startTime": "06:00",
+        "endTime": "16:00",
+        "status": "on duty"
+      },
+      {
+        "date": "2024-01-26",
+        "startTime": "06:00",
+        "endTime": "16:00",
+        "status": "break"
+      }
+    ]
+  },
+  {
+    "Id": 8,
+    "name": "Administrator John Cooper",
+    "role": "Administrator",
+    "department": "Administration",
+    "shift": "Business Hours (9AM-5PM)",
+    "contactInfo": {
+      "phone": "(555) 888-9999",
+      "email": "j.cooper@hospital.com"
+    },
+    "assignedPatients": [],
+    "schedule": [
+      {
+        "date": "2024-01-25",
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "status": "on duty"
+      },
+      {
+        "date": "2024-01-26",
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "status": "off duty"
+      }
+    ]
+  },
+  {
+    "Id": 9,
+    "name": "Therapist Maria Santos",
+    "role": "Technician",
+    "department": "Rehabilitation",
+    "shift": "Day Shift (8AM-4PM)",
+    "contactInfo": {
+      "phone": "(555) 999-0000",
+      "email": "m.santos@hospital.com"
+    },
+    "assignedPatients": [1, 5, 8],
+    "schedule": [
+      {
+        "date": "2024-01-25",
+        "startTime": "08:00",
+        "endTime": "16:00",
+        "status": "on duty"
+      },
+      {
+        "date": "2024-01-26",
+        "startTime": "08:00",
+        "endTime": "16:00",
+        "status": "on duty"
+      }
+    ]
+  },
+  {
+    "Id": 10,
+    "name": "Nurse Manager Linda Rodriguez",
+    "role": "Nurse",
+    "department": "Surgery",
+    "shift": "Day Shift (7AM-7PM)",
+    "contactInfo": {
+      "phone": "(555) 101-1010",
+      "email": "l.rodriguez@hospital.com"
+    },
+    "assignedPatients": [8],
+    "schedule": [
+      {
+        "date": "2024-01-25",
+        "startTime": "07:00",
+        "endTime": "19:00",
+        "status": "on duty"
+      },
+      {
+        "date": "2024-01-26",
+        "startTime": "07:00",
+        "endTime": "19:00",
+        "status": "emergency"
+      }
+    ]
+  }
+]

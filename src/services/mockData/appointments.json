@@ -1,0 +1,134 @@
+[
+  {
+    "Id": 1,
+    "patientId": "1",
+    "staffId": "1",
+    "dateTime": "2024-01-25T09:00:00Z",
+    "duration": 30,
+    "type": "Follow-up Consultation",
+    "status": "confirmed",
+    "notes": "Routine follow-up for diabetes management",
+    "department": "Internal Medicine"
+  },
+  {
+    "Id": 2,
+    "patientId": "2",
+    "staffId": "2",
+    "dateTime": "2024-01-25T10:30:00Z",
+    "duration": 45,
+    "type": "Emergency Consultation",
+    "status": "confirmed",
+    "notes": "Severe asthma attack",
+    "department": "Emergency"
+  },
+  {
+    "Id": 3,
+    "patientId": "3",
+    "staffId": "3",
+    "dateTime": "2024-01-25T14:00:00Z",
+    "duration": 60,
+    "type": "Cardiac Assessment",
+    "status": "pending",
+    "notes": "Post-MI evaluation",
+    "department": "Cardiology"
+  },
+  {
+    "Id": 4,
+    "patientId": "4",
+    "staffId": "4",
+    "dateTime": "2024-01-26T08:00:00Z",
+    "duration": 30,
+    "type": "Prenatal Check-up",
+    "status": "confirmed",
+    "notes": "28-week prenatal appointment",
+    "department": "Obstetrics"
+  },
+  {
+    "Id": 5,
+    "patientId": "5",
+    "staffId": "5",
+    "dateTime": "2024-01-26T11:00:00Z",
+    "duration": 45,
+    "type": "Pulmonary Function Test",
+    "status": "pending",
+    "notes": "COPD monitoring",
+    "department": "Pulmonology"
+  },
+  {
+    "Id": 6,
+    "patientId": "6",
+    "staffId": "6",
+    "dateTime": "2024-01-26T15:30:00Z",
+    "duration": 60,
+    "type": "Psychiatric Evaluation",
+    "status": "confirmed",
+    "notes": "Medication adjustment",
+    "department": "Psychiatry"
+  },
+  {
+    "Id": 7,
+    "patientId": "7",
+    "staffId": "7",
+    "dateTime": "2024-01-27T09:15:00Z",
+    "duration": 30,
+    "type": "Urological Consultation",
+    "status": "pending",
+    "notes": "Kidney stone follow-up",
+    "department": "Urology"
+  },
+  {
+    "Id": 8,
+    "patientId": "8",
+    "staffId": "8",
+    "dateTime": "2024-01-27T13:00:00Z",
+    "duration": 45,
+    "type": "Post-operative Check",
+    "status": "completed",
+    "notes": "Appendectomy recovery",
+    "department": "Surgery"
+  },
+  {
+    "Id": 9,
+    "patientId": "1",
+    "staffId": "9",
+    "dateTime": "2024-01-28T10:00:00Z",
+    "duration": 30,
+    "type": "Physical Therapy",
+    "status": "confirmed",
+    "notes": "Mobility assessment",
+    "department": "Rehabilitation"
+  },
+  {
+    "Id": 10,
+    "patientId": "3",
+    "staffId": "10",
+    "dateTime": "2024-01-28T16:00:00Z",
+    "duration": 15,
+    "type": "Lab Work",
+    "status": "pending",
+    "notes": "Cardiac enzyme test",
+    "department": "Laboratory"
+  },
+  {
+    "Id": 11,
+    "patientId": "2",
+    "staffId": "2",
+    "dateTime": "2024-01-29T09:30:00Z",
+    "duration": 30,
+    "type": "Medication Review",
+    "status": "cancelled",
+    "notes": "Patient requested reschedule",
+    "department": "Emergency"
+  },
+  {
+    "Id": 12,
+    "patientId": "4",
+    "staffId": "4",
+    "dateTime": "2024-01-29T14:30:00Z",
+    "duration": 45,
+    "type": "Ultrasound",
+    "status": "confirmed",
+    "notes": "Fetal growth assessment",
+    "department": "Obstetrics"
+  }
+]

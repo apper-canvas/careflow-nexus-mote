@@ -1,0 +1,178 @@
+[
+  {
+    "Id": 1,
+    "firstName": "John",
+    "lastName": "Smith",
+    "dateOfBirth": "1985-03-15",
+    "gender": "Male",
+    "contactInfo": {
+      "phone": "(555) 123-4567",
+      "email": "john.smith@email.com",
+      "address": "123 Main St, City, State 12345"
+    },
+    "insuranceInfo": {
+      "provider": "Blue Cross Blue Shield",
+      "policyNumber": "BC123456789",
+      "groupNumber": "GRP001"
+    },
+    "medicalHistory": ["Hypertension", "Type 2 Diabetes", "High Cholesterol"],
+    "currentStatus": "stable",
+    "admissionDate": "2024-01-20",
+    "assignedRoom": "ICU-101",
+    "primaryPhysician": "Dr. Sarah Johnson"
+  },
+  {
+    "Id": 2,
+    "firstName": "Emily",
+    "lastName": "Davis",
+    "dateOfBirth": "1992-07-22",
+    "gender": "Female",
+    "contactInfo": {
+      "phone": "(555) 234-5678",
+      "email": "emily.davis@email.com",
+      "address": "456 Oak Ave, City, State 12345"
+    },
+    "insuranceInfo": {
+      "provider": "Aetna",
+      "policyNumber": "AET987654321",
+      "groupNumber": "GRP002"
+    },
+    "medicalHistory": ["Asthma", "Allergies"],
+    "currentStatus": "critical",
+    "admissionDate": "2024-01-22",
+    "assignedRoom": "ICU-102",
+    "primaryPhysician": "Dr. Michael Brown"
+  },
+  {
+    "Id": 3,
+    "firstName": "Robert",
+    "lastName": "Wilson",
+    "dateOfBirth": "1978-11-10",
+    "gender": "Male",
+    "contactInfo": {
+      "phone": "(555) 345-6789",
+      "email": "robert.wilson@email.com",
+      "address": "789 Pine St, City, State 12345"
+    },
+    "insuranceInfo": {
+      "provider": "Cigna",
+      "policyNumber": "CIG456789123",
+      "groupNumber": "GRP003"
+    },
+    "medicalHistory": ["Heart Disease", "Previous MI"],
+    "currentStatus": "urgent",
+    "admissionDate": "2024-01-21",
+    "assignedRoom": "CCU-201",
+    "primaryPhysician": "Dr. Jennifer Lee"
+  },
+  {
+    "Id": 4,
+    "firstName": "Maria",
+    "lastName": "Garcia",
+    "dateOfBirth": "1990-05-08",
+    "gender": "Female",
+    "contactInfo": {
+      "phone": "(555) 456-7890",
+      "email": "maria.garcia@email.com",
+      "address": "321 Elm St, City, State 12345"
+    },
+    "insuranceInfo": {
+      "provider": "UnitedHealthcare",
+      "policyNumber": "UHC789123456",
+      "groupNumber": "GRP004"
+    },
+    "medicalHistory": ["Pregnancy", "Gestational Diabetes"],
+    "currentStatus": "observation",
+    "admissionDate": "2024-01-23",
+    "assignedRoom": "OB-301",
+    "primaryPhysician": "Dr. Lisa Chen"
+  },
+  {
+    "Id": 5,
+    "firstName": "David",
+    "lastName": "Johnson",
+    "dateOfBirth": "1965-09-30",
+    "gender": "Male",
+    "contactInfo": {
+      "phone": "(555) 567-8901",
+      "email": "david.johnson@email.com",
+      "address": "654 Maple Ave, City, State 12345"
+    },
+    "insuranceInfo": {
+      "provider": "Medicare",
+      "policyNumber": "MED123456789",
+      "groupNumber": "MED001"
+    },
+    "medicalHistory": ["COPD", "Former Smoker", "Arthritis"],
+    "currentStatus": "discharge",
+    "admissionDate": "2024-01-18",
+    "assignedRoom": "MED-205",
+    "primaryPhysician": "Dr. Robert Smith"
+  },
+  {
+    "Id": 6,
+    "firstName": "Lisa",
+    "lastName": "Anderson",
+    "dateOfBirth": "1988-12-14",
+    "gender": "Female",
+    "contactInfo": {
+      "phone": "(555) 678-9012",
+      "email": "lisa.anderson@email.com",
+      "address": "987 Cedar St, City, State 12345"
+    },
+    "insuranceInfo": {
+      "provider": "Blue Cross Blue Shield",
+      "policyNumber": "BC987654321",
+      "groupNumber": "GRP005"
+    },
+    "medicalHistory": ["Anxiety", "Depression"],
+    "currentStatus": "stable",
+    "admissionDate": "2024-01-19",
+    "assignedRoom": "PSY-401",
+    "primaryPhysician": "Dr. Amanda White"
+  },
+  {
+    "Id": 7,
+    "firstName": "James",
+    "lastName": "Brown",
+    "dateOfBirth": "1975-04-25",
+    "gender": "Male",
+    "contactInfo": {
+      "phone": "(555) 789-0123",
+      "email": "james.brown@email.com",
+      "address": "147 Birch Ave, City, State 12345"
+    },
+    "insuranceInfo": {
+      "provider": "Humana",
+      "policyNumber": "HUM456789123",
+      "groupNumber": "GRP006"
+    },
+    "medicalHistory": ["Kidney Stones", "UTI History"],
+    "currentStatus": "observation",
+    "admissionDate": "2024-01-24",
+    "assignedRoom": "URO-502",
+    "primaryPhysician": "Dr. Kevin Park"
+  },
+  {
+    "Id": 8,
+    "firstName": "Sarah",
+    "lastName": "Miller",
+    "dateOfBirth": "1993-08-17",
+    "gender": "Female",
+    "contactInfo": {
+      "phone": "(555) 890-1234",
+      "email": "sarah.miller@email.com",
+      "address": "258 Spruce St, City, State 12345"
+    },
+    "insuranceInfo": {
+      "provider": "Kaiser Permanente",
+      "policyNumber": "KP123789456",
+      "groupNumber": "GRP007"
+    },
+    "medicalHistory": ["Appendectomy", "No chronic conditions"],
+    "currentStatus": "discharge",
+    "admissionDate": "2024-01-16",
+    "assignedRoom": "SUR-603",
+    "primaryPhysician": "Dr. Thomas Wilson"
+  }
+]

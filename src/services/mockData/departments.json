@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "name": "Intensive Care Unit",
+    "totalBeds": 20,
+    "occupiedBeds": 18,
+    "staffOnDuty": [1, 5, 6],
+    "equipment": ["Ventilators", "Cardiac Monitors", "Defibrillators", "IV Pumps", "Dialysis Machines"]
+  },
+  {
+    "Id": 2,
+    "name": "Emergency Department",
+    "totalBeds": 15,
+    "occupiedBeds": 12,
+    "staffOnDuty": [2, 6],
+    "equipment": ["X-Ray Machines", "CT Scanner", "Ultrasound", "Crash Carts", "Trauma Beds"]
+  },
+  {
+    "Id": 3,
+    "name": "Cardiology",
+    "totalBeds": 12,
+    "occupiedBeds": 8,
+    "staffOnDuty": [3],
+    "equipment": ["ECG Machines", "Stress Test Equipment", "Echocardiogram", "Holter Monitors", "Pacemakers"]
+  },
+  {
+    "Id": 4,
+    "name": "Obstetrics",
+    "totalBeds": 10,
+    "occupiedBeds": 7,
+    "staffOnDuty": [4],
+    "equipment": ["Fetal Monitors", "Ultrasound Machines", "Labor Beds", "Incubators", "Delivery Tables"]
+  },
+  {
+    "Id": 5,
+    "name": "Surgery",
+    "totalBeds": 8,
+    "occupiedBeds": 6,
+    "staffOnDuty": [10],
+    "equipment": ["Operating Tables", "Surgical Instruments", "Anesthesia Machines", "Surgical Lights", "Recovery Monitors"]
+  },
+  {
+    "Id": 6,
+    "name": "Medical Ward",
+    "totalBeds": 25,
+    "occupiedBeds": 20,
+    "staffOnDuty": [1, 5],
+    "equipment": ["Patient Monitors", "IV Stands", "Wheelchairs", "Hospital Beds", "Oxygen Tanks"]
+  },
+  {
+    "Id": 7,
+    "name": "Pediatrics",
+    "totalBeds": 15,
+    "occupiedBeds": 8,
+    "staffOnDuty": [],
+    "equipment": ["Pediatric Monitors", "Infant Warmers", "Pediatric Ventilators", "Growth Charts", "Toys"]
+  },
+  {
+    "Id": 8,
+    "name": "Rehabilitation",
+    "totalBeds": 12,
+    "occupiedBeds": 9,
+    "staffOnDuty": [9],
+    "equipment": ["Physical Therapy Equipment", "Wheelchairs", "Walking Aids", "Exercise Machines", "Therapy Mats"]
+  },
+  {
+    "Id": 9,
+    "name": "Laboratory",
+    "totalBeds": 0,
+    "occupiedBeds": 0,
+    "staffOnDuty": [7],
+    "equipment": ["Blood Analyzers", "Microscopes", "Centrifuges", "Chemistry Analyzers", "Specimen Storage"]
+  },
+  {
+    "Id": 10,
+    "name": "Radiology",
+    "totalBeds": 0,
+    "occupiedBeds": 0,
+    "staffOnDuty": [],
+    "equipment": ["X-Ray Machines", "MRI Scanner", "CT Scanner", "Mammography Unit", "Fluoroscopy Machine"]
+  }
+]
