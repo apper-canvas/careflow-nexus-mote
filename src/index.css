@@ -171,3 +171,35 @@ body {
 .table tbody tr:hover {
   @apply bg-gray-50;
 }
+
+/* Hero section styles */
+.hero-section {
+  min-height: 600px;
+  position: relative;
+}
+
+.hero-feature-card {
+  transform: translateY(0);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    min-height: 500px;
+  }
+  
+  .hero-feature-card {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-section {
+    min-height: 450px;
+  }
+}

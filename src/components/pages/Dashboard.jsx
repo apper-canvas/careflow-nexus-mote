@@ -88,12 +88,75 @@ const Dashboard = () => {
     occupancyRate: ((dept.occupiedBeds / dept.totalBeds) * 100).toFixed(1)
   }));
 
-  return (
-    <div className="space-y-6">
-      {/* Header */}
+return (
+    <div className="space-y-8">
+      {/* Hero Section */}
+      <div className="hero-section bg-gradient-to-br from-primary-600 via-primary-700 to-primary-800 rounded-2xl text-white relative overflow-hidden">
+        <div className="absolute inset-0 bg-black bg-opacity-10"></div>
+        <div className="relative z-10 px-8 py-12 lg:py-16">
+          <div className="max-w-4xl mx-auto text-center">
+            <h1 className="text-4xl lg:text-6xl font-bold mb-4">
+              CareFlow Hospital Management
+            </h1>
+            <p className="text-xl lg:text-2xl text-primary-100 mb-12 max-w-3xl mx-auto">
+              Streamline your healthcare operations with our comprehensive management system designed for modern medical facilities
+            </p>
+            
+            {/* Feature Showcase */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 mt-12">
+              {/* Patient Registration */}
+              <div className="hero-feature-card bg-white bg-opacity-10 backdrop-blur-sm rounded-xl p-6 lg:p-8 border border-white border-opacity-20 hover:bg-opacity-20 transition-all duration-300 cursor-pointer group"
+                   onClick={() => window.location.href = '/patients'}>
+                <div className="w-16 h-16 lg:w-20 lg:h-20 bg-white bg-opacity-20 rounded-full flex items-center justify-center mb-6 mx-auto group-hover:bg-opacity-30 transition-all">
+                  <ApperIcon name="Users" className="h-8 w-8 lg:h-10 lg:w-10 text-white" />
+                </div>
+                <h3 className="text-xl lg:text-2xl font-semibold mb-4">Patient Registration</h3>
+                <p className="text-primary-100 mb-6 text-sm lg:text-base">
+                  Streamline patient intake and manage comprehensive medical records with our intuitive registration system
+                </p>
+                <Button variant="secondary" className="w-full bg-white text-primary-700 hover:bg-primary-50">
+                  Manage Patients
+                </Button>
+              </div>
+
+              {/* Appointment Scheduling */}
+              <div className="hero-feature-card bg-white bg-opacity-10 backdrop-blur-sm rounded-xl p-6 lg:p-8 border border-white border-opacity-20 hover:bg-opacity-20 transition-all duration-300 cursor-pointer group"
+                   onClick={() => window.location.href = '/appointments'}>
+                <div className="w-16 h-16 lg:w-20 lg:h-20 bg-white bg-opacity-20 rounded-full flex items-center justify-center mb-6 mx-auto group-hover:bg-opacity-30 transition-all">
+                  <ApperIcon name="Calendar" className="h-8 w-8 lg:h-10 lg:w-10 text-white" />
+                </div>
+                <h3 className="text-xl lg:text-2xl font-semibold mb-4">Appointment Scheduling</h3>
+                <p className="text-primary-100 mb-6 text-sm lg:text-base">
+                  Efficient scheduling system with real-time availability and automated reminders for optimal patient care
+                </p>
+                <Button variant="secondary" className="w-full bg-white text-primary-700 hover:bg-primary-50">
+                  Schedule Appointments
+                </Button>
+              </div>
+
+              {/* Staff Coordination */}
+              <div className="hero-feature-card bg-white bg-opacity-10 backdrop-blur-sm rounded-xl p-6 lg:p-8 border border-white border-opacity-20 hover:bg-opacity-20 transition-all duration-300 cursor-pointer group"
+                   onClick={() => window.location.href = '/staff'}>
+                <div className="w-16 h-16 lg:w-20 lg:h-20 bg-white bg-opacity-20 rounded-full flex items-center justify-center mb-6 mx-auto group-hover:bg-opacity-30 transition-all">
+                  <ApperIcon name="UserCheck" className="h-8 w-8 lg:h-10 lg:w-10 text-white" />
+                </div>
+                <h3 className="text-xl lg:text-2xl font-semibold mb-4">Staff Coordination</h3>
+                <p className="text-primary-100 mb-6 text-sm lg:text-base">
+                  Coordinate medical staff, manage shifts, and optimize hospital resource allocation for maximum efficiency
+                </p>
+                <Button variant="secondary" className="w-full bg-white text-primary-700 hover:bg-primary-50">
+                  Manage Staff
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Dashboard Header */}
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-3xl font-bold text-gray-900">Hospital Dashboard</h1>
+          <h2 className="text-2xl font-bold text-gray-900">Dashboard Overview</h2>
           <p className="text-gray-600 mt-1">Welcome back, Dr. Wilson. Here's what's happening today.</p>
         </div>
         
