@@ -1,15 +1,17 @@
-import React, { useState, useEffect } from "react";
-import SearchBar from "@/components/molecules/SearchBar";
+import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { patientService } from "@/services/api/patientService";
+import { toast } from "react-toastify";
 import Button from "@/components/atoms/Button";
 import PatientCard from "@/components/organisms/PatientCard";
 import Loading from "@/components/ui/Loading";
-import Error from "@/components/ui/Error";
 import Empty from "@/components/ui/Empty";
-import { patientService } from "@/services/api/patientService";
-import { toast } from "react-toastify";
+import Error from "@/components/ui/Error";
+import SearchBar from "@/components/molecules/SearchBar";
 
 const Patients = () => {
-  const [patients, setPatients] = useState([]);
+  const navigate = useNavigate();
+const [patients, setPatients] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [searchTerm, setSearchTerm] = useState("");
@@ -58,8 +60,8 @@ const Patients = () => {
     }
   };
 
-  const handleNewPatient = () => {
-    toast.success("Opening new patient registration form");
+const handleNewPatient = () => {
+    navigate('/patients/new');
   };
 
   if (loading) return <Loading type="cards" />;
